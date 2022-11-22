@@ -1,0 +1,20 @@
+{
+  "name": "memory-match",
+  "version": "1.0.0",
+  "description": "A memory match game to improve memory",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed"
+  },
+  "keywords": [
+    "Memory",
+    "game",
+    "Memory",
+    "match"
+  ],
+  "author": "Sushant kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

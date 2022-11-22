@@ -1,0 +1,40 @@
+/*==================== RESET STYLES ====================*/
+@use "variables" as v;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: v.$ff-body;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+a:link,
+a:visited {
+    text-decoration: none; 
+    cursor: pointer;
+    outline: none;
+}
+button,input,textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+ul {
+    list-style: none;
+}
+section {
+    overflow-x: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
